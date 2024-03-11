@@ -8,7 +8,7 @@ import { useAccount } from "wagmi"
 import { useNFT } from "./useNFT"
 
 const GOLDSKY_API =
-  "https://api.goldsky.com/api/public/project_clnujea22c0if34x5965c8c0j/subgraphs/nft-zetachain-testnet/v4/gn"
+  "https://api.goldsky.com/api/public/project_clti6xbb05ig001vb2jnhfu9h/subgraphs/nft-zetachain-testnet/v1/gn"
 
 const query = (address: string) => {
   return gql`
